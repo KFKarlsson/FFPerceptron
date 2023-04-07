@@ -3,7 +3,7 @@ Python code for applying the Forward-Forward Learning Algorithm to a Single Perc
 
 The Jupyter Notebook file also includes the text output during training with jittered images of the perceptron with 8000 outputs.
 
-Results obtained by this code are presented and discussed in a arXiv preprint: http://arxiv.org/abs/2304.03189 (2023)
+Results obtained by this code are presented and discussed in an arXiv preprint: http://arxiv.org/abs/2304.03189 (2023)
 
 ### The Concept of Forward-Forward Learning Applied to a Multi Output Perceptron
 **Author:** K. F. Karlsson
