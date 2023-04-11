@@ -1,9 +1,20 @@
 # Forward-Forward Learning of a Single Perceptron
 Python code for applying the Forward-Forward Learning Algorithm to a Single Perceptron for classification of handwritten digits in the MNIST data set (requires PyTorch).
 
-The Jupyter Notebook file also includes the text output during training with jittered images of the perceptron with 8000 outputs.
+The Jupyter Notebook file also includes the text outputted during training with jittered images of the perceptron with 8000 outputs, reaching a test error  below 1 %. The following performance is obtained with this code:
 
-Results obtained by this code are presented and discussed in an arXiv preprint: http://arxiv.org/abs/2304.03189 (2023)
+| Number of Outputs  | Data Augmentation | Test Error (%)
+| ------------- | ------------- | ------------- |
+|  125  | none  | ≲ 2.6 |
+|  500  | none  | ≲ 1.9 |
+| 2000  | none  | ≲ 1.7 |
+| 8000  | none  | ≲ 1.6 |
+|  125  | jittered  | ≲ 2.2 |
+|  500  | jittered  | ≲ 1.4 |
+| 2000  | jittered  | ≲ 1.1 |
+| 8000  | jittered  | ≲ 1.0 |
+
+See the arXiv preprint: http://arxiv.org/abs/2304.03189 (2023).
 
 ### The Concept of Forward-Forward Learning Applied to a Multi Output Perceptron
 **Author:** K. F. Karlsson
